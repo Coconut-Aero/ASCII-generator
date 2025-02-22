@@ -1,0 +1,43 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+.env/
+.venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE/编辑器相关
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+
+# 日志和临时文件
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+.DS_Store
+
+# 依赖包
+*.egg
+*.egg-info/
+dist/
+build/
+site-packages/
+
+# Jupyter Notebook 运行时文件
+.ipynb_checkpoints/
+
+# 本地配置文件
+config.json
+settings.json
+
+# tox
+.tox/
